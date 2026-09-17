@@ -1,0 +1,11 @@
+id = "secdb-lsp"
+name = "ZEN SecDB (Vulnerability Audit)"
+version = "0.1.0"
+schema_version = 1
+authors = ["Giuseppe Di Terlizzi <giuseppe.diterlizzi@gmail.com>"]
+description = "Inline vulnerability audit of dependency manifests, powered by ZEN SecDB"
+repository = "https://github.com/giterlizzi/secdb-zed"
+
+[language_servers.secdb]
+name = "ZEN SecDB"
+languages = ["Go Mod", "JSON", "Plain Text", "XML"]
